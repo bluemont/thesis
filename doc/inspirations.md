@@ -56,3 +56,27 @@ serialization." Yes!
 
 * LT broke new ground. This is no small thing.
 * How suitable is the Component-Entity System?
+
+## Devcards
+
+* [Devcards source code](https://github.com/bhauman/devcards)
+* [Brad Hauman's video introduction at Strange Loop](https://www.youtube.com/watch?v=G7Z_g2fnEDg)
+
+### Devcard Strengths
+
+* Flattens application states (including temporal states, exceptional states,
+  and more) into one page
+* Quickly prototype interactive elements outside of the application logic and
+  flow.
+
+### Devcard Weaknesses
+
+* Devcards is a specific tool with some particular goals; I don't have a good
+  sense of 'weaknesses' yet.
+
+### Devcards Commentary
+
+* Devcards is currently implemented in ClojureScript.
+* It is built to facilitate interactivity with a web browser; it does not
+  require any special interaction with a text editor.
+* Could the ideas be part of the fundamental abstractions for a text editor?
